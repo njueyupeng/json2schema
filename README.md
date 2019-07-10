@@ -30,7 +30,7 @@ const jsonString = `{
     // Rainbows
     "unicorn": /* ❤ */ "cake" // comment
 }`;
-let convertResult = convert(jsonString);
+let convertResult = convert(jsonString, { isJsonString: true });
 ```
 
 ## Test
