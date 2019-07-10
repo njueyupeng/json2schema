@@ -1,0 +1,40 @@
+{
+  "name": "@yp/json2schema",
+  "version": "0.0.2",
+  "description": "Transform JSON Object to JSON Schema Version 7",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njueyupeng/json2schema.git"
+  },
+  "keywords": [
+    "json2schema",
+    "JSON",
+    "JSON to Schema",
+    "Schema",
+    "jsonSchema"
+  ],
+  "author": "yupeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/njueyupeng/json2schema/issues"
+  },
+  "homepage": "https://github.com/njueyupeng/json2schema#readme",
+  "dependencies": {
+    "lodash.isboolean": "^3.0.3",
+    "lodash.isempty": "^4.4.0",
+    "lodash.isinteger": "^4.0.4",
+    "lodash.isnull": "^3.0.0",
+    "lodash.isnumber": "^3.0.3",
+    "lodash.isobject": "^3.0.2",
+    "lodash.isstring": "^4.0.1",
+    "strip-json-comments": "^3.0.1"
+  },
+  "devDependencies": {
+    "ajv": "^6.5.3",
+    "mocha": "^5.2.0"
+  }
+}
