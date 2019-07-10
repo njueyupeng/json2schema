@@ -1,10 +1,8 @@
 # @yp/json2schema
 
-Transform JSON Object to JSON Schema Version 7
+Transform JSON Object to JSON Schema Version 7, Based on [JSON Schema draft-07](http://json-schema.org/)
 
 将 json 转换成 jsonchema 规则，基于 [jsonSchema 草案 7](http://json-schema.org/)的语法规则
-
-Based on [JSON Schema draft-07](http://json-schema.org/)
 
 ## Installation
 
@@ -43,4 +41,6 @@ npm run test
 
 ## TODO
 
-1. Take the comments out of jsonString and put it into jsonschema as description of keys(支持从 json 的字符串形式中，取出字段对应的注释，并放在 jsonSchema 的字段描述中)
+Take the comments out of jsonString and put it into jsonschema as description of keys
+
+支持从 json 的字符串形式中，取出字段对应的注释，并放在 jsonSchema 的字段描述中
