@@ -1,6 +1,6 @@
 {
   "name": "@yp/json2schema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transform JSON Object to JSON Schema Version 7",
   "main": "index.js",
   "scripts": {
